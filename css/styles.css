@@ -1,0 +1,187 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 4rem;
+  font-family: "Mate SC", serif;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #11999e;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 4%;
+  border-color: #eaf6f6;
+  margin: 100px auto 100px auto;
+}
+
+#profilepic {
+  height: 150px;
+  width: 150px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.pm-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto auto 100px auto;
+  color: #40514e;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px;
+}
+
+.contact-me {
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 10px 0 0;
+  font-family: "Playfair Display", serif;
+}
+
+#copyright {
+  color: #eaf6f6;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.social-media-image {
+  width: 40px;
+  margin: 5px auto;
+  display: grid;
+}
+.linkedin {
+  display: inline-block;
+}
+.linkedin:hover #linkedin {
+  width: 45px;
+  margin: 0px auto;
+}
+.linkedin:hover .footer-link {
+  color: #eaf6f6;
+}
+.github {
+  display: inline-block;
+  margin: auto 15px;
+}
+.github:hover #github {
+  width: 45px;
+  margin: 0px auto;
+}
+.github:hover .footer-link {
+  color: #eaf6f6;
+}
+.telegram {
+  display: inline-block;
+}
+.telegram:hover #telegram {
+  width: 45px;
+  margin: 0px auto;
+}
+.telegram:hover .footer-link {
+  color: #eaf6f6;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+#contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
